@@ -1,11 +1,9 @@
 import React from 'react'
 
-const App = () => {
-  return (
+const App = () => (
     <div>
-      <h1 className='bg-primary'>Kiondabolos</h1>
+      <h1 className='bg-primary text-center font-bold text-white'>Kiondabolos</h1>
       </div>
   )
-}
 
 export default App
