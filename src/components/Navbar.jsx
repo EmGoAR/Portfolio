@@ -17,7 +17,7 @@ const Navbar = () => {
           <li
             key={nav.id}
             className={`font-poppin font-normal cursor-pointer text-[16px] 
-            ${index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'} text-white mr-10`}
+            ${index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'} sm:text-white mr-10`}
           >
             {/* cuando clickeas este link, este pone un # y toma el valor del id ya guardado en navLinks, 
               por lo tanto quedaria asi #home #features #products #clients */}
