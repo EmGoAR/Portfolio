@@ -14,7 +14,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={` bg-neutral-500 bg-opacity-50 ${styles.flexStart}`}>
+    <div className={`${styles.flexStart} border-y-2 border-purple-500`}>
       <div className={`xl:max-w-[1280px] w-full`}> {/* esto es igual que ${styles.boxWidth} */}
         <MainSection />
       </div>
