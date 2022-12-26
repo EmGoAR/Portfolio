@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./style.jsx";
 import {Navbar, Hero, Stats, Business, Billing, 
   CardDeal, Testimonials, Clients, CTA, Footer} from "./components"
+import MainSection from './components/MainSection.jsx';
 
 const App = () => (
   
@@ -12,6 +13,13 @@ const App = () => (
         <Navbar />
       </div>
     </div>
+
+    <div className={` bg-neutral-500 bg-opacity-50 ${styles.flexStart}`}>
+      <div className={`xl:max-w-[1280px] w-full`}> {/* esto es igual que ${styles.boxWidth} */}
+        <MainSection />
+      </div>
+    </div>
+
 
     <div className={ `bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
