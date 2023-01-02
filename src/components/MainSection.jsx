@@ -11,7 +11,7 @@ const MainSection = () => {
       <div className={`flex-1 flex-col sm:flex-row ${styles.flexStart} xl:px-0 sm:px-16 px-6`}>
 
       {/* Animacion */}
-        <Lottie animationData={ProgrammingGuy} loop={true} className={`flex min-w-[350px] max-w-[500px] self-center`}></Lottie>
+        <Lottie animationData={ProgrammingGuy} loop={true} className={`flex min-w-[287px] max-w-[500px] self-center`}></Lottie>
 
 
         {/* Contenedor de texto */}
