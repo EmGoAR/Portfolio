@@ -12,6 +12,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        impact: ["Impact","monospace"]
       },
     },
     screens: {

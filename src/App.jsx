@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from "./style.jsx";
 import {Navbar, Hero, Stats, Business, Billing, 
-  CardDeal, Testimonials, Clients, CTA, Footer} from "./components"
-import MainSection from './components/MainSection.jsx';
+  CardDeal, Testimonials, Clients, CTA, Footer, LandingPage} from "./components"
+import MainSection from './components/AboutMe.jsx';
 
 const App = () => (
   
-  <div className='bg-primary w-full overflow-hidden text-fuchsia-600'>
+  <div className='bg-primary w-full overflow-hidden'>
     {/* DIS IS THE NAVBAR */}
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
@@ -14,7 +14,13 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`${styles.flexStart} border-y-2 border-purple-500`}>
+    <div className={`flex justify-center items-start`}>
+      <div className={`xl:max-w-[1280px] w-full`}> {/* esto es igual que ${styles.boxWidth} */}
+        <LandingPage />
+      </div>
+    </div>
+
+    <div className={`${styles.flexStart}`}>
       <div className={`xl:max-w-[1280px] w-full`}> {/* esto es igual que ${styles.boxWidth} */}
         <MainSection />
       </div>
