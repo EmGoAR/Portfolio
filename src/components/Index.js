@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import LandingPage from "./LandingPage";
+import Skills from "./Skills";
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   Hero,
   AboutMe,
   LandingPage,
+  Skills,
 };

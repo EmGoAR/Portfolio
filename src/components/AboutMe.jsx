@@ -1,8 +1,6 @@
 import styles from "../style";
 import Lottie, { LottiePlayer } from "lottie-react"
-import ProgrammingGuy from "../assets/programmingGuy.json"
 import Laptop from "../assets/Laptop.json"
-import Typewriter from 'typewriter-effect';
 
 const MainSection = () => {
   return (
@@ -10,7 +8,7 @@ const MainSection = () => {
     <section id="AboutMe" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
 
       {/* este es el div que les pone los padding y contiene todo */}
-      <div className={`flex-1 flex-col ss:sm:md:flex-row ${styles.flexStart} xl:px-0 sm:px-16 px-6`}>
+      <div className={`flex-1 flex-col md:flex-row ${styles.flexStart} xl:px-0 sm:px-16 px-6`}>
 
         {/* Animacion */}
         <Lottie animationData={Laptop} loop={true} className={`flex w-full min-w-[500px] max-w-[500px] self-center`}></Lottie>
@@ -21,13 +19,13 @@ const MainSection = () => {
 
 
         {/* Contenedor de texto */}
-        <div className={`text-justify sm:px-[4%]`}>
+        <div className={`text-left sm:px-[4%]`}>
           {/* Título */}
           <h1 className={`flex-1 font-poppins font-semibold ss:text-[32px] text-[28px] text-white text-center sm:text-justify text-gradient`}>
             About Me
           </h1>
           {/* Texto */}
-          <p className={`${styles.paragraph} text-center sm:text-start text-md leading-[20.8px] bg-gray-900 rounded-md p-4 shadow shadow-black`}>
+          <p className={`${styles.paragraph} text-left sm:text-start text-md leading-[20.8px] bg-gray-900 rounded-md p-4 shadow shadow-black`}>
             -I'm a native Argentine, recently arrived in Santa Catarina in search of opportunities in the Technology sector, since I was a child I've been passionate about computers, so much so that at home they told me that when I was born I came with a keyboard and mouse, I've always organized myself to work with my knowledge , be it assembling and maintaining PCs for neighbors, friends, acquaintances or gaming venues or small businesses, my command of English is sufficient to spend a lot of time talking in writing or on video calls, but I have to work on my Portuguese, which for now it's basic.
             <br /> {""}
             <br />
