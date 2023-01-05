@@ -1,7 +1,6 @@
 import styles from "../style";
 import Lottie, { LottiePlayer } from "lottie-react"
 import ProgrammingGuy from "../assets/programmingGuy.json"
-import Typewriter from 'typewriter-effect';
 
 const Skills = () => {
   return (

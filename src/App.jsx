@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./style.jsx";
 import {Navbar, Hero, Stats, Business, Billing, 
-  CardDeal, Testimonials, Clients, CTA, Footer, LandingPage, AboutMe, Skills} from "./components"
+  CardDeal, Testimonials, Clients, CTA, Footer, LandingPage, AboutMe, Skills, ContactMe} from "./components"
 import MainSection from './components/AboutMe.jsx';
 
 const App = () => (
@@ -17,18 +17,9 @@ const App = () => (
     <div className={`flex justify-center items-start`}>
       <div className={`xl:max-w-[1280px] w-full`}> {/* esto es igual que ${styles.boxWidth} */}
         <LandingPage />
-      </div>
-    </div>
-
-    <div className={`${styles.flexStart}`}>
-      <div className={`xl:max-w-[1280px] w-full`}> {/* esto es igual que ${styles.boxWidth} */}
         <AboutMe />
-      </div>
-    </div>
-
-    <div className={`flex justify-center items-start`}>
-      <div className={`xl:max-w-[1280px] w-full`}> {/* esto es igual que ${styles.boxWidth} */}
         <Skills />
+        <ContactMe />
       </div>
     </div>
 

@@ -11,6 +11,7 @@ import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import LandingPage from "./LandingPage";
 import Skills from "./Skills";
+import ContactMe from "./ContactMe";
 
 export {
   Navbar,
@@ -26,4 +27,5 @@ export {
   AboutMe,
   LandingPage,
   Skills,
+  ContactMe,
 };

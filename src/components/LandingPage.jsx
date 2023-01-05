@@ -30,7 +30,7 @@ const LandingPage = () => {
 
                     {/* imagen */}
                     <div className={`lg:pr-10 flex ss:self-end self-center z-10 `}>
-                        <img src="Foto.png" alt="" className={`w-full min-w-[300px] max-w-[400px] draw-circle`} />
+                        <img src={`/Foto.png`} alt="" className={`w-full min-w-[300px] max-w-[400px] draw-circle`} />
                     </div>
                 </div>
             </div>
