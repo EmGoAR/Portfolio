@@ -14,18 +14,6 @@ const LandingPage = () => {
                     <h1 className="flex-1 font-poppins font-semibold ss:text-left text-center ss:text-[55px] text-[42px] text-white ss:leading-[60px] leading-[55px]">
                         <span className="text-gradient">Emiliano Gonzalez <br className="sm:block hidden" /></span>{" "}
                         <span className="ss:text-[45px] text-[38px]">Junior Front End Developer</span>  {" "}
-                        <br />
-                        <span className="ss:text-[24px] text-[18px] leading-[45px]">
-                            <Typewriter
-                                options={{
-                                    strings: [
-                                        '<span style="color: rgb(20,220,220); flex-wrap: nowrap; text-shadow: 0 0 15px #2DD;">Learning new Things</span>',
-                                        '<span style="color: rgb(20,220,220); flex-wrap: nowrap; text-shadow: 0 0 15px #2DD;">Love solving Problems</span>'],
-                                    autoStart: true,
-                                    loop: true,
-                                }}
-                            />
-                        </span>
                     </h1>
 
                     {/* imagen */}

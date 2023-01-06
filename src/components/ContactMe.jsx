@@ -12,16 +12,16 @@ const ContactMe = () => (
     </div>
 
     {/* Caja de formulario */}
-    <form className={`${styles.paragraph} sm:my-16 my-6 text-left sm:text-start text-md leading-[20.8px] bg-gray-900 rounded-md p-4 shadow shadow-black min-w-[130px] w-full max-w-xl`}>
+    <form className={`${styles.paragraph} sm:m-12 my-6 text-left sm:text-start text-md leading-[20.8px] bg-gray-900 rounded-md p-4 shadow shadow-black min-w-[130px] w-[80%] max-w-xl`}>
       
       <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+        <label className="block text-sm font-bold mb-2" htmlFor="email">
           Email
         </label>
         <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email" />
       </div>
       <div className="mb-6">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+        <label className="block text-sm font-bold mb-2" htmlFor="message">
           Message
         </label>
         <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Message"></textarea>
