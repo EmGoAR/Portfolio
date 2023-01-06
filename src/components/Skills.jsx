@@ -5,7 +5,7 @@ import ProgrammingGuy from "../assets/programmingGuy.json"
 const Skills = () => {
   return (
     /* este es el main container - coloca flex responsivamente*/
-    <section id="AboutMe" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <section id="Skills" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
 
       {/* este es el div que les pone los padding y contiene todo */}
       <div className={`flex-1 flex-col md:flex-row-reverse ${styles.flexStart} xl:px-0 sm:px-16 px-6`}>

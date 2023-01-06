@@ -13,7 +13,6 @@ const MainSection = () => {
         {/* Animacion */}
         <Lottie animationData={Laptop} loop={true} className={`flex w-full min-w-[500px] max-w-[500px] self-center`}></Lottie>
         {/* gradient start */}
-        <div className="absolute z-[0] w-[40%] h-[35%]  pink__gradient" />
         <div className="absolute z-[0] w-[50%] h-[50%] right-96 bottom-20 blue__gradient" />
         {/* gradient end */}
 

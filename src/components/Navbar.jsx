@@ -44,9 +44,9 @@ const Navbar = () => {
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6  bg-gray-900 bg-opacity-70 backdrop-blur-lg absolute top-[4rem] right-auto mx-4 my-2 min-w-[140px] rounded-md sidebar z-[11]`}
         >
-          <ul className="list-none flex justify-end items-start flex-1 flex-col">
+          <ul className="list-none flex justify-around items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}

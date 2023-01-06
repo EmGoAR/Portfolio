@@ -19,8 +19,8 @@ const LandingPage = () => {
                             <Typewriter
                                 options={{
                                     strings: [
-                                        '<span style="color: rgb(20,220,220); text-shadow: 0 0 15px #2DD;">Learning new Things</span>',
-                                        '<span style="color: rgb(20,220,220); text-shadow: 0 0 15px #2DD;">Love solving Problems</span>'],
+                                        '<span style="color: rgb(20,220,220); flex-wrap: nowrap; text-shadow: 0 0 15px #2DD;">Learning new Things</span>',
+                                        '<span style="color: rgb(20,220,220); flex-wrap: nowrap; text-shadow: 0 0 15px #2DD;">Love solving Problems</span>'],
                                     autoStart: true,
                                     loop: true,
                                 }}
