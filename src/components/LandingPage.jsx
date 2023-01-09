@@ -3,23 +3,22 @@ import Typewriter from 'typewriter-effect';
 
 const LandingPage = () => {
     return (
-        /* este es el main container - coloca flex responsivamente*/
-        <section className={`flex md:flex-row flex-col sm:py-16 py-6`}> {/**/}
-            {/* justifica al centro y al inicio, ordena en columna y agrega padding */}
-            <div className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-12 px-4`}>
+        /* main container - puts flex responsively */
+        <section className={`flex md:flex-row flex-col sm:py-16 py-6 mx-6`}> {/**/}
+            {/* justifies between and centers on y axis, padding and margin on x axis */}
+            <div className="flex flex-1 flex-col-reverse ss:flex-row justify-between items-center w-full xl:px-0 sm:px-12 px-4">
 
-                <div className="flex flex-col-reverse ss:flex-row justify-between ss:gap-x-[5%] items-center w-full">
+                {/* Title */}
+                <div className="font-poppins font-semibold ss:text-left text-center">
+                    <h1 className="text-[#3D84C5] ss:text-[55px] text-[42px] ss:leading-[60px] leading-[55px]">
+                        Emiliano Gonzalez</h1>
+                    <h1 className="text-white ss:text-[32px] text-[22px] font-normal ss:leading-[30px] leading-[25px]">
+                        Junior Front End Developer</h1>
+                </div>
 
-                    {/* texto presentacion */}
-                    <h1 className="flex-1 font-poppins font-semibold ss:text-left text-center ss:text-[55px] text-[42px] text-white ss:leading-[60px] leading-[55px]">
-                        <span className="text-gradient">Emiliano Gonzalez <br className="sm:block hidden" /></span>{" "}
-                        <span className="ss:text-[45px] text-[38px]">Junior Front End Developer</span>  {" "}
-                    </h1>
-
-                    {/* imagen */}
-                    <div className={`lg:pr-10 flex ss:self-end self-center z-10 `}>
-                        <img src={`/Foto.png`} alt="" className={`w-full min-w-[300px] max-w-[400px] draw-circle`} />
-                    </div>
+                {/* Image */}
+                <div className={`lg:pr-10 flex ss:self-end self-center z-10 `}>
+                    <img src={`/Foto.png`} alt="" className={`w-full min-w-[300px] max-w-[400px] draw-circle`} />
                 </div>
             </div>
         </section>
