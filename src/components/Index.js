@@ -1,17 +1,18 @@
-import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
-import Clients from "./Clients";
-import CTA from "./CTA";
-import Stats from "./Stats";
-import Footer from "./Footer";
-import Testimonials from "./Testimonials";
-import Hero from "./Hero";
-import AboutMe from "./AboutMe";
-import LandingPage from "./LandingPage";
-import Skills from "./Skills";
-import ContactMe from "./ContactMe";
+import Navbar from './Navbar'
+import Billing from './Billing'
+import CardDeal from './CardDeal'
+import Business from './Business'
+import Clients from './Clients'
+import Cta from './CTA'
+import Stats from './Stats'
+import Footer from './Footer'
+import Testimonials from './Testimonials'
+import Hero from './Hero'
+import AboutMe from './AboutMe'
+import LandingPage from './LandingPage'
+import Skills from './Skills'
+import Projects from './Projects'
+import ContactMe from './ContactMe'
 
 export {
   Navbar,
@@ -19,7 +20,7 @@ export {
   CardDeal,
   Business,
   Clients,
-  CTA,
+  Cta,
   Stats,
   Footer,
   Testimonials,
@@ -27,5 +28,6 @@ export {
   AboutMe,
   LandingPage,
   Skills,
-  ContactMe,
-};
+  Projects,
+  ContactMe
+}

@@ -1,11 +1,12 @@
-import React from 'react';
-import styles from "./style.jsx";
-import {Navbar, Hero, Stats, Business, Billing, 
-  CardDeal, Testimonials, Clients, CTA, Footer, LandingPage, AboutMe, Skills, ContactMe} from "./components"
-import MainSection from './components/AboutMe.jsx';
+import React from 'react'
+import styles from './style.jsx'
+import {
+  Navbar, Hero, Stats, Business, Billing,
+  CardDeal, Testimonials, Clients, Cta, Footer, LandingPage, AboutMe, Skills, Projects, ContactMe
+} from './components'
 
 const App = () => (
-  
+
   <div className='bg-primary w-full overflow-hidden'>
     {/* DIS IS THE NAVBAR */}
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -14,18 +15,18 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`flex justify-center items-start`}>
-      <div className={`xl:max-w-[1280px] w-full`}> {/* esto es igual que ${styles.boxWidth} */}
+    <div className='flex justify-center items-start'>
+      <div className='xl:max-w-[1280px] w-full'> {/* esto es igual que ${styles.boxWidth} */}
         <LandingPage />
         <AboutMe />
         <Skills />
+        <Projects />
         <ContactMe />
       </div>
     </div>
 
-    {/* 
-
-    <div className={ `bg-primary ${styles.flexStart}`}>
+    {/*
+    <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
@@ -36,14 +37,15 @@ const App = () => (
     <div className={`${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
 
-        {/* 
+        {/*
+
         <Stats />
         <Business />
         <Billing />
         <CardDeal />
         <Testimonials />
         <Clients />
-        <CTA />
+        <Cta />
         */}
 
         <Footer />
