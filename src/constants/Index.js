@@ -1,197 +1,207 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { site01, site02, site03, facebook, instagram, linkedin, github, airbnb, binance, coinbase, dropbox, send, shield, star } from '../assets'
 
 export const navLinks = [
   {
-    id: "AboutMe",
-    title: "About Me",
+    id: 'AboutMe',
+    title: 'About Me'
   },
   {
-    id: "Skills",
-    title: "Skills",
+    id: 'Skills',
+    title: 'Skills'
   },
   {
-    id: "Projects",
-    title: "Projects",
+    id: 'Projects',
+    title: 'Projects'
   },
   {
-    id: "ContactMe",
-    title: "Contact Me",
-  },
-];
+    id: 'ContactMe',
+    title: 'Contact Me'
+  }
+]
 
 export const features = [
   {
-    id: "feature-1",
+    id: 'feature-1',
     icon: star,
-    title: "Rewards",
+    title: 'Rewards',
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      'The best credit cards offer some tantalizing combinations of promotions and prizes'
   },
   {
-    id: "feature-2",
+    id: 'feature-2',
     icon: shield,
-    title: "100% Secured",
+    title: '100% Secured',
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      'We take proactive steps make sure your information and transactions are secure.'
   },
   {
-    id: "feature-3",
+    id: 'feature-3',
     icon: send,
-    title: "Balance Transfer",
+    title: 'Balance Transfer',
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
+      'A balance transfer credit card can save you a lot of money in interest charges.'
+  }
+]
 
 export const feedback = [
   {
-    id: "feedback-1",
+    id: 'feedback-1',
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      'Kings League, a new soccer tournament in which 12 teams will face each other.',
+    name: 'Kings league infojobs',
+    title: 'Original dev Midudev',
+    img: site01
   },
   {
-    id: "feedback-2",
+    id: 'feedback-2',
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      'This project is in development.',
+    name: 'Bar and restaurant app',
+    title: 'From FrontendCafe',
+    img: site02
   },
   {
-    id: "feedback-3",
+    id: 'feedback-3',
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      'This project is in development.',
+    name: 'Open Commerce app',
+    title: 'From FreecodeCamp',
+    img: site03
   },
-];
+  {
+    id: 'feedback-4',
+    content:
+      'this space will be filled soon.',
+    name: 'Some Awesome Project',
+    title: 'by Emiliano Gonzalez',
+    img: site03
+  }
+]
 
 export const stats = [
   {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    id: 'stats-1',
+    title: 'User Active',
+    value: '3800+'
   },
   {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    id: 'stats-2',
+    title: 'Trusted by Company',
+    value: '230+'
   },
   {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
-];
+    id: 'stats-3',
+    title: 'Transaction',
+    value: '$230M+'
+  }
+]
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: 'Useful Links',
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: 'Content',
+        link: 'https://www.hoobank.com/content/'
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: 'How it Works',
+        link: 'https://www.hoobank.com/how-it-works/'
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: 'Create',
+        link: 'https://www.hoobank.com/create/'
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: 'Explore',
+        link: 'https://www.hoobank.com/explore/'
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
+        name: 'Terms & Services',
+        link: 'https://www.hoobank.com/terms-and-services/'
+      }
+    ]
   },
   {
-    title: "Community",
+    title: 'Community',
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: 'Help Center',
+        link: 'https://www.hoobank.com/help-center/'
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: 'Partners',
+        link: 'https://www.hoobank.com/partners/'
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: 'Suggestions',
+        link: 'https://www.hoobank.com/suggestions/'
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        name: 'Blog',
+        link: 'https://www.hoobank.com/blog/'
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
+        name: 'Newsletters',
+        link: 'https://www.hoobank.com/newsletters/'
+      }
+    ]
   },
   {
-    title: "Partner",
+    title: 'Partner',
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: 'Our Partner',
+        link: 'https://www.hoobank.com/our-partner/'
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
-];
+        name: 'Become a Partner',
+        link: 'https://www.hoobank.com/become-a-partner/'
+      }
+    ]
+  }
+]
 
 export const socialMedia = [
   {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
+    id: 'social-media-1',
+    icon: github,
+    link: 'https://github.com/EmGoDev/'
   },
   {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
+    id: 'social-media-2',
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: 'https://www.linkedin.com/in/emigonciar/'
+  }
+  /*
+  {
+    id: 'social-media-3',
+    icon: instagram,
+    link: 'https://www.instagram.com/'
   },
-];
+  {
+    id: 'social-media-4',
+    icon: facebook,
+    link: 'https://www.facebook.com/'
+  }
+  */
+]
 
 export const clients = [
   {
-    id: "client-1",
-    logo: airbnb,
+    id: 'client-1',
+    logo: airbnb
   },
   {
-    id: "client-2",
-    logo: binance,
+    id: 'client-2',
+    logo: binance
   },
   {
-    id: "client-3",
-    logo: coinbase,
+    id: 'client-3',
+    logo: coinbase
   },
   {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
+    id: 'client-4',
+    logo: dropbox
+  }
+]
