@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import logo from '../assets/Logo.png'
 import logoclosed from '../assets/LogoClosed.png'
-import { navLinks, socialMedia } from '../constants'
+import { navLinks, socialMedia } from '../constants/Index'
 import Typewriter from 'typewriter-effect'
 import esflag from '../assets/es.svg'
 import brflag from '../assets/br.svg'
