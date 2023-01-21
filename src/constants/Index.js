@@ -47,33 +47,33 @@ export const feedback = [
   {
     id: 'feedback-1',
     content:
-      'Kings League, a new soccer tournament in which 12 teams will face each other.',
-    name: 'Kings league infojobs',
-    title: 'Original dev Midudev',
+      'One of my first apps, user can enter text and convert it at will, no frameworks or libraries used. https://textencriptor.netlify.app/',
+    name: 'Text Encryptor and Decryptor',
+    title: 'Github: https://github.com/EmGoDev/EncriptadorTexto-ONE-Oracle',
     img: site01
   },
   {
     id: 'feedback-2',
     content:
-      'This project is in development.',
-    name: 'Bar and restaurant app',
-    title: 'From FrontendCafe',
+      'Kings League, a new soccer tournament in which 12 teams will face each other.',
+    name: 'Kings league infojobs',
+    title: 'Original dev Midudev',
     img: site02
   },
   {
     id: 'feedback-3',
     content:
       'This project is in development.',
-    name: 'Open Commerce app',
-    title: 'From FreecodeCamp',
+    name: 'Bar and restaurant app',
+    title: 'From FrontendCafe',
     img: site03
   },
   {
     id: 'feedback-4',
     content:
-      'this space will be filled soon.',
-    name: 'Some Awesome Project',
-    title: 'by Emiliano Gonzalez',
+      'This project is in development.',
+    name: 'Open Commerce app',
+    title: 'From FreecodeCamp',
     img: site03
   }
 ]

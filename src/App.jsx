@@ -1,9 +1,6 @@
 import React from 'react'
 import styles from './style.jsx'
-import {
-  Navbar, Hero, Stats, Business, Billing,
-  CardDeal, Testimonials, Clients, Cta, Footer, LandingPage, AboutMe, Skills, Projects, ContactMe
-} from './components'
+import { Navbar, LandingPage, AboutMe, Skills, Projects, ContactMe, Footer } from './components'
 
 const App = () => (
 
