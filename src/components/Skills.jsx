@@ -1,6 +1,6 @@
 import {
   bootstrap, css, express, figma, react, redux, sass, git, tailwind, typescript, html, javascript, next, node, vite, postgresql, trello, vsc, postman, github2/* , dart,  adobexd, sequelize, flutter, swift, jira, thunderclient, notion, */
-} from '../assets/Index.js'
+} from '../assets/index'
 
 import styles from '../style'
 import Lottie from 'lottie-react'
