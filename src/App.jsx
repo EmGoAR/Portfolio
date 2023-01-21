@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.jsx'
-import { Navbar, LandingPage, AboutMe, Skills, Projects, ContactMe, Footer } from './components'
+import { Navbar, LandingPage, AboutMe, Skills, Projects, ContactMe, Footer } from './components/Index.js'
 
 const App = () => (
 
