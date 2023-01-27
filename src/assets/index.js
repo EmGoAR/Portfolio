@@ -56,6 +56,7 @@ import trello from './lang/trello.webp'
 import typescript from './lang/typescript.webp'
 import vite from './lang/vite.webp'
 import vsc from './lang/vsc.webp'
+import mongodb from './lang/mongo.png'
 
 export {
   airbnb,
@@ -114,5 +115,6 @@ export {
   trello,
   typescript,
   vite,
+  mongodb,
   vsc
 }
