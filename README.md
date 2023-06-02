@@ -12,7 +12,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com) &nbsp;
 
-## Built With
+## About
 
 My personal portfolio <a href="[https://soumyajit.vercel.app/](https://emgodev.netlify.app/)" target="_blank">emgodev.netlify.app</a> which features some of my github projects as well as my multilanguage resume and technical skills.<br/>
 
