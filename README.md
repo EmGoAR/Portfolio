@@ -2,7 +2,8 @@
   Portfolio Website<br/>
   <a href="https://emgodev.netlify.app/" target="_blank">emgodev.netlify.app</a>
 </h2>
-<img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81qdPRYXV51-ETZJgMGD35WO1D-P0GZAtvVerUjpqLOtbInUiEOrCCM2F7agXjS6wY5uAXYlAuTXoqNkGl-9Uje54mqf=w2940-h5226"  title="Optional title">
+<img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBkBnIiqtDWVevIDojCao_G2v2Uzx25OybJRSnaMF7KiB03QEXCfiYjqLJW8R_4MWvZ8t7I93TQX2F0NcGlca3D-9nL=w1358-h646"  
+ title="Optional title" alt="Hero">
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
