@@ -174,13 +174,13 @@ const Navbar = () => {
 					} flex-1  flex-col justify-between gap-5 p-6 bg-gray-900 bg-opacity-70 backdrop-blur-lg rounded-md z-[11] logo-menu absolute top-[4rem] right-2 mx-4 my-2`}
 				>
 					{/* LIST SECTION /> */}
-					<ul className="list-none flex justify-around px-2 items-start flex-1 flex-col right-auto bg-gray-600 bg-opacity-25 rounded-md">
+					<ul className="list-none block justify-around items-start right-auto bg-gray-600 bg-opacity-25 rounded-md">
 						{navLinks.map((nav, index) => (
 							<li
 								key={nav.id}
-								className={` font-poppins font-medium cursor-pointer text-[16px] py-2 ${
+								className={` flex justify-center font-poppins font-medium cursor-pointer text-[18px] p-1 ${
 									active === nav.title ? "text-white" : "text-dimWhite"
-								} ${index === navLinks.length - 1 ? "mb-0" : "mb-0"}`}
+								} ${index === navLinks.length - 1 ? "p-[15px] my-1" : "p-[15px] my-1 "}`}
 								onClick={() => setActive(nav.title)}
 							>
 								<a href={`#${nav.id}`}>{nav.title}</a>
@@ -189,18 +189,18 @@ const Navbar = () => {
 					</ul>
 
 					{/* CV SECTION */}
-					<div className="flex flex-col bg-gray-600 bg-opacity-25 rounded-md text-white font-medium">
+					<div className="flex flex-col bg-gray-600 bg-opacity-25 rounded-md text-white font-medium text-center">
 						<p className="px-2 pt-2">Resumes:</p>
 						<div className="flex justify-center us:flex-row flex-col">
 							<a
 								href="https://drive.google.com/file/d/1kW4owaBZDUeoo-VCLwBVZAZiwKystdcN/view?usp=share_link"
 								target="_blank"
 								rel="noreferrer"
-								className="bg-gray-600 hover:bg-[#1D64A5] my-2 mx-3 p-2 rounded"
+								className="flex justify-center bg-gray-600 hover:bg-[#1D64A5] rounded m-2"
 								type="submit"
 							>
 								<img
-									className="us:w-8 w-12 object-contain mx-2 cursor-pointer inline"
+									className="min-w-[35px] object-contain mx-3 my-2 cursor-pointer inline"
 									src={esflag}
 									alt="Espanol"
 								/>
@@ -210,11 +210,11 @@ const Navbar = () => {
 								href="https://drive.google.com/file/d/1Ag6GYldEUD4sl9jXc46gw06-QzeViqdu/view?usp=share_link"
 								target="_blank"
 								rel="noreferrer"
-								className="bg-gray-600 hover:bg-[#1D64A5] my-2 mx-3 p-2 rounded"
+								className="flex justify-center bg-gray-600 hover:bg-[#1D64A5] rounded m-2"
 								type="submit"
 							>
 								<img
-									className="us:w-8 w-12 object-contain mx-2 cursor-pointer inline"
+									className="min-w-[35px] object-contain mx-3 my-2 cursor-pointer inline"
 									src={brflag}
 									alt="Espanol"
 								/>
@@ -224,11 +224,11 @@ const Navbar = () => {
 								href="https://drive.google.com/file/d/1uCTQeuf5zghYjgLCiLAdaLifvl06nix4/view?usp=share_link"
 								target="_blank"
 								rel="noreferrer"
-								className="bg-gray-600 hover:bg-[#1D64A5] my-2 mx-3 p-2 rounded"
+								className="flex justify-center bg-gray-600 hover:bg-[#1D64A5] rounded m-2"
 								type="submit"
 							>
 								<img
-									className="us:w-8 w-12 object-contain mx-2 cursor-pointer inline"
+									className="min-w-[35px] object-contain mx-3 my-2 cursor-pointer inline"
 									src={gbflag}
 									alt="Espanol"
 								/>
