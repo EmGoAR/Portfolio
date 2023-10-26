@@ -84,31 +84,31 @@
 }
 
 .logo-menu {
-	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
-	animation: slide-in-left 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+	animation: slide-in-top 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) both;
 }
 
-@-webkit-keyframes slide-in-left {
+@-webkit-keyframes slide-in-top {
 	0% {
-		-webkit-transform: translateX(-1000px);
-		transform: translateX(-1000px);
+		-webkit-transform: translateY(-1000px);
+		transform: translateY(-1000px);
 		opacity: 0;
 	}
 	100% {
-		-webkit-transform: translateX(0);
-		transform: translateX(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
 		opacity: 1;
 	}
 }
-@keyframes slide-in-left {
+@keyframes slide-in-top {
 	0% {
-		-webkit-transform: translateX(-1000px);
-		transform: translateX(-1000px);
+		-webkit-transform: translateY(-1000px);
+		transform: translateY(-1000px);
 		opacity: 0;
 	}
 	100% {
-		-webkit-transform: translateX(0);
-		transform: translateX(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
 		opacity: 1;
 	}
 }

@@ -57,6 +57,7 @@ import typescript from './lang/typescript.webp'
 import vite from './lang/vite.webp'
 import vsc from './lang/vsc.webp'
 import mongodb from './lang/mongo.png'
+import emgodev from "../assets/EmGodev.png";
 
 export {
   airbnb,
@@ -116,5 +117,6 @@ export {
   typescript,
   vite,
   mongodb,
-  vsc
+  vsc,
+  emgodev
 }

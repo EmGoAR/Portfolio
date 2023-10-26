@@ -1,3 +1,5 @@
+import { navLinks, socialMedia } from "../constants/Index";
+
 
 const LandingPage = () => {
   return (
@@ -12,8 +14,25 @@ const LandingPage = () => {
             Emiliano Gonzalez
           </h1>
           <h1 className='text-white ss:text-[32px] text-[22px] font-normal ss:leading-[30px] leading-[25px]'>
-            Junior Front End Developer
+            Full Stack Developer
           </h1>
+
+          {/* Social media Icons */}
+          <ul className="list-none flex items-center flex-1 font-poppins py-2 ss:justify-start ss:pl-2 justify-center">
+					<div className="flex flex-row md:mt-0  ">
+						{socialMedia.map((social, index) => (
+							<img
+								key={social.id}
+								src={social.icon}
+								alt={social.id}
+								className={`w-9 h-9 object-contain cursor-pointer ${
+									index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+								}`}
+								onClick={() => window.open(social.link)}
+							/>
+						))}
+					</div>
+				</ul>
         </div>
 
         {/* Image */}

@@ -29,7 +29,7 @@ import Laptop from "../assets/Laptop.json";
 const Skills = () => {
 	return (
 		/* este es el main container - coloca flex responsivamente */
-		<section id="Skills" className={`flex flex-col ${styles.paddingY}`}>
+		<section className={`flex flex-col ${styles.paddingY}`}>
 			{/* este es el div que les pone los padding y contiene todo */}
 			<div
 				className={`flex-1 flex-col md:flex-row-reverse ${styles.flexStart} xl:px-0 sm:px-16 px-6 items-center`}
@@ -42,7 +42,7 @@ const Skills = () => {
 				/>
 
 				{/* Contenedor de texto */}
-				<div className="text-justify sm:px-[4%]">
+				<div id="Skills" className="text-justify sm:px-[4%]">
 					{/* Título */}
 					<h1 className="flex-1 font-poppins font-semibold ss:text-[32px] text-[28px] text-white text-center sm:text-justify text-gradient mb-3">
 						My Skills
