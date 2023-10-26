@@ -1,9 +1,6 @@
 import { useState } from "react";
-import close from "../assets/Logo.png";
-import logo from "../assets/Logo.png";
-import emgodev from "../assets/EmGodev.png";
-import menu from "../assets/Logo.png";
-import logoclosed from "../assets/LogoClosed.png";
+import close from "../assets/close.svg";
+import menu from "../assets/menu.svg";
 import { navLinks, socialMedia } from "../constants/Index";
 import Typewriter from "typewriter-effect";
 import esflag from "../assets/es.svg";
