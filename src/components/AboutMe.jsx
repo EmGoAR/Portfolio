@@ -22,7 +22,7 @@ const AboutMe = () => {
 
           {/* Texto */}
           <p className='ss:text-[28px] text-[18px] ss:leading-[38px] leading-[25px] max-w-4xl font-normal text-white text-mdv text mx-auto mt-[10%]  '>
-            I am currently developing Full-Stack responsive applications, my goal is to continue honing my skills as a Full Stack to fulfill my current goal, which is Software Engineer. <br /><br />I love crafting friendly styled UI apps.
+            I am currently developing Front-End responsive websites, my goal is to continue honing my skills as a Full Stack to fulfill my current goal, which is Software Engineer. <br /><br />I love crafting friendly styled UI apps.
           </p>
         </div>
 
