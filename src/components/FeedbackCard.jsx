@@ -5,7 +5,7 @@ const FeedbackCard = ({ img, content, title, sitelink, githublink }) => (
 
     <div className='flex flex-col'>
       {/* Image and Link */}
-      <a href={sitelink}><img src={img} alt={title} className='w-full mr-4 rounded-md' />
+      <a href={sitelink} target="_blank"><img src={img} alt={title} className='w-full mr-4 rounded-md' />
       </a>
 
       <div className='flex flex-col'>

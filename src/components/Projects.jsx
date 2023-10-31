@@ -69,9 +69,10 @@ const Projects = () => (
 				content="A movie website, project Built with React, uses Axios for routing, query-string for requests, and Swiper for swipe effects"
 			/>
 
+			{/*
 			<FeedbackCard
 				img={site03}
-				sitelink="#Projects"
+				sitelink="#"
 				title="Kings league infojobs"
 				githublink={
 					<p className="mt-2 text-center font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
@@ -80,6 +81,7 @@ const Projects = () => (
 				}
 				content="Kings League, a new soccer tournament in which 12 teams will face each other."
 			/>
+			*/}
 		</div>
 	</section>
 );
