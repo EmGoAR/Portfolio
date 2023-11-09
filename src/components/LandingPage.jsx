@@ -14,7 +14,7 @@ const LandingPage = () => {
 				{/* Title */}
 				<div className="font-poppins font-semibold ss:text-left text-center">
 					<h1 className="text-[#3D84C5] ss:text-[55px] text-[42px] ss:leading-[60px] leading-[55px]">
-						Emiliano Gonzalez
+						Emiliano Ciarcelluti
 					</h1>
 					<h1 className="text-white ss:text-[32px] text-[22px] font-normal ss:leading-[30px] leading-[25px]">
 						Front-End Developer
