@@ -1,0 +1,44 @@
+{
+    "navbar": {
+        "aboutme": "Sobre Mi",
+        "skills": "Habilidades",
+        "projects": "Projectos",
+        "contact": "Contactáctame"
+    },
+    
+    "landing": {
+        "subtitle": "Desarrollador Front-End"
+    },
+    "about": {
+        "line1": "Me encanta desarrollar",
+        "line2": "Sitios Geniales",
+        "line3": "",
+        "description": "Actualmente desarrollo sitios web responsivos, mi meta es continuar cultivando mis conocimientos y habilidades hasta llegar a realizar mi sueño, ser Ingeniero de Software.",
+        "description2": "Amo diseñar sitios modernos y hacerlos responsivos!."
+    },
+    "skills": {
+        "title":"Mis Conocimientos",
+        "section1": "TECNOLOGIAS PRINCIPALES",
+        "section2": "FUNDAMENTALES",
+        "section3": "ESTILADO Y ESTRUCTURACION",
+        "section4": "MIS HERRAMIENTAS DE TRABAJO"
+    },
+    "projects": {
+        "title":"Mis Proyectos",
+        "presentation": "Estoy desarrollando diferentes proyectos, probando distintas tecnologías, estarán listos pronto!",
+        "github": "Enlace a Github",
+        "app1title": "Encriptador y Desencriptador de Texto",
+        "app1description": "Una de mis primers aplicaciones responsivas, puedes escribir texto y convertirlo a voluntad",
+        "app2title": "Sitio de Películas",
+        "app2description": "Un sitio de trailers cinematográficos, usa React como base, Axios para las rutas, query-string para los solicitudes, y Swiper para los efectos de deslizamiento",
+        "app3title": "",
+        "app3description": ""
+    },
+    "contact": {
+        "title": "Nos pongamos en Contacto!",
+        "description": "Tienes un proyecto en mente? quieres ayuda para terminar un proyecto? rellena el formulario y te contactaré lo antes posible!",
+        "formName": "Nombre",
+        "formMssg": "Mensaje",
+        "send": "Enviar"
+    }
+}

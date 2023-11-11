@@ -1,0 +1,44 @@
+{
+    "navbar": {
+        "aboutme": "Sobre Mim",
+        "skills": "Habilidades",
+        "projects": "Projetos",
+        "contact": "Me-Contacte"
+    },
+    
+    "landing": {
+        "subtitle": "Desenvolvedor Front-End"
+    },
+    "about": {
+        "line1": "Adoro desenvolver",
+        "line2": "Sites Incríveis",
+        "line3": "",
+        "description": "Atualmente, estou desenvolvendo sites responsivos. Meu objetivo é continuar cultivando meus conhecimentos e habilidades para realizar meu sonho de me tornar um engenheiro de software.",
+        "description2": "gosto de projetar sites modernos e torná-los responsivos"
+    },
+    "skills": {
+        "title":"Minhas Habilidades",
+        "section1": "TECNOLOGIAS ESSENCIAIS",
+        "section2": "PRINCIPAIS",
+        "section3": "ESTILO E ESTRUTURAÇÃO",
+        "section4": "MINHAS FERRAMENTAS DE TRABALHO"
+    },
+    "projects": {
+        "title":"Meus Projetos",
+        "presentation": "Estou desenvolvendo diferentes projetos, testando diferentes tecnologias, e eles estarão prontos em breve!",
+        "github": "Link para o Github",
+        "app1title": "Criptografia e Descriptografia de Texto",
+        "app1description": "Um dos meus primeiros aplicativos responsivos, você pode escrever texto e convertê-lo à vontade.",
+        "app2title": "Site do Filmes",
+        "app2description": "Um site de trailer de filme que usa React como base, Axios para rotas, query-string para solicitações e Swiper para efeitos de deslizamento.",
+        "app3title": "",
+        "app3description": ""
+    },
+    "contact": {
+        "title": "Vamos Entrar em Contato!",
+        "description": "Tem um projeto em mente? quer ajuda para terminar um projeto? preencha o formulário e entrarei em contato o mais rápido possível!",
+        "formName": "Nome",
+        "formMssg": "Mensagem",
+        "send": "Enviar"
+    }
+}

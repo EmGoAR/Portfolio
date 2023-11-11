@@ -2,8 +2,14 @@ import { navLinks, socialMedia } from "../constants/Index";
 import esflag from "../assets/es.svg";
 import brflag from "../assets/br.svg";
 import gbflag from "../assets/gb.svg";
+import { Trans, useTranslation } from "react-i18next";
 
-const LandingPage = () => {
+function LandingPage() {
+	const { t, i18n } = useTranslation();
+	const changeLanguage = (language) => {
+		i18n.changeLanguage(language);
+	};
+
 	return (
 		/* main container - puts flex responsively */
 		<section className="flex md:flex-row flex-col sm:py-16 py-6 mx-6">
@@ -17,35 +23,47 @@ const LandingPage = () => {
 						Emiliano Ciarcelluti
 					</h1>
 					<h1 className="text-white ss:text-[32px] text-[22px] font-normal ss:leading-[30px] leading-[25px]">
-						Front-End Developer
+						{t("landing.subtitle")}
 					</h1>
 
 					{/* Country Flags */}
 
 					<div className="flex flex-row ss:justify-start justify-center mt-3">
-						<div className="flex justify-center bg-gray-600 rounded m-1">
+						<button
+							className="flex justify-center bg-gray-600 rounded m-1"
+							type="button"
+							onClick={() => changeLanguage("es")}
+						>
 							<img
 								className="min-w-[55px] object-contain m-1 inline"
 								alt="Espanol"
 								src={esflag}
 							/>
-						</div>
+						</button>
 
-						<div className="flex justify-center bg-gray-600 rounded m-1">
+						<button
+							className="flex justify-center bg-gray-600 rounded m-1"
+							type="button"
+							onClick={() => changeLanguage("pt")}
+						>
 							<img
 								className="min-w-[55px] object-contain m-1 inline"
 								alt="Portugues"
 								src={brflag}
 							/>
-						</div>
+						</button>
 
-						<div className="flex justify-center bg-gray-600 rounded m-1">
+						<button
+							className="flex justify-center bg-gray-600 rounded m-1"
+							type="button"
+							onClick={() => changeLanguage("en")}
+						>
 							<img
 								className="min-w-[55px] object-contain m-1 inline"
 								alt="English"
 								src={gbflag}
 							/>
-						</div>
+						</button>
 					</div>
 
 					{/* Social media Icons */}
@@ -77,6 +95,6 @@ const LandingPage = () => {
 			</div>
 		</section>
 	);
-};
+}
 
 export default LandingPage;

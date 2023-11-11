@@ -25,8 +25,11 @@ import styles from "../style";
 import Lottie from "lottie-react";
 // import ProgrammingGuy from '../assets/programmingGuy.json'
 import Laptop from "../assets/Laptop.json";
+import { Trans, useTranslation } from "react-i18next";
 
-const Skills = () => {
+function Skills() {
+	const { t, i18n } = useTranslation();
+
 	return (
 		/* este es el main container - coloca flex responsivamente */
 		<section className={`flex flex-col ${styles.paddingY}`}>
@@ -45,14 +48,14 @@ const Skills = () => {
 				<div id="Skills" className="text-justify sm:px-[4%]">
 					{/* Título */}
 					<h1 className="flex-1 font-poppins font-semibold ss:text-[32px] text-[28px] text-white text-center sm:text-justify text-gradient mb-3">
-						My Skills
+						{t("skills.title")}
 					</h1>
 					{/* Main Container */}
 					<div className="bg-gray-900 rounded-md p-4 shadow shadow-black max-w-xl">
 						<p
 							className={`${styles.paragraph} text-left sm:text-start text-md leading-[20.8px] ml-5 `}
 						>
-							MAIN STACK
+							{t("skills.section1")}
 						</p>
 						<br />
 						<div className="flex flex-row flex-wrap justify-center  gap-3 mb-5">
@@ -93,7 +96,7 @@ const Skills = () => {
 						<p
 							className={`${styles.paragraph} text-left sm:text-start text-md leading-[20.8px] ml-5 `}
 						>
-							FUNDAMENTAL ONES
+							{t("skills.section2")}
 						</p>
 						<br />
 						<div className="flex flex-row flex-wrap justify-center  gap-3 mb-5">
@@ -140,7 +143,7 @@ const Skills = () => {
 						<p
 							className={`${styles.paragraph} text-left sm:text-start text-md leading-[20.8px] ml-5 `}
 						>
-							STYLING AND STRUCTURE
+							{t("skills.section3")}
 							<br />
 						</p>
 						<div className="flex flex-row flex-wrap justify-center p-3 gap-3 mb-5">
@@ -193,7 +196,7 @@ const Skills = () => {
 						<p
 							className={`${styles.paragraph} text-left sm:text-start text-md leading-[20.8px] ml-5 `}
 						>
-							MY WORK TOOLS
+							{t("skills.section4")}
 							<br />
 						</p>
 						<div className="flex flex-row flex-wrap justify-center p-3 gap-3">

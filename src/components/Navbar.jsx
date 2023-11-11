@@ -6,10 +6,12 @@ import Typewriter from "typewriter-effect";
 import esflag from "../assets/es.svg";
 import brflag from "../assets/br.svg";
 import gbflag from "../assets/gb.svg";
+import { Trans, useTranslation } from "react-i18next";
 
-const Navbar = () => {
+function Navbar() {
 	const [active, setActive] = useState("Home");
 	const [toggle, setToggle] = useState(false);
+	const { t, i18n } = useTranslation();
 
 	return (
 		<nav className="w-full flex py-3 justify-between items-center navbar mt-3 sm:px-8	 px-5 bg-gray-900 rounded-md p-4 shadow shadow-black ">
@@ -29,18 +31,47 @@ const Navbar = () => {
 				/>
 			</div>
 
+			{/* DESKTOP Menu items */}
 			<ul className="list-none sm:flex hidden justify-end items-center flex-1">
-				{navLinks.map((nav, index) => (
-					<li
-						key={nav.id}
-						className={`font-poppins font-normal cursor-pointer text-[16px] ${
-							active === nav.title ? "text-white" : "text-dimWhite"
-						} ${index === navLinks.length - 1 ? "mr-0" : "mr-8"}`}
-						onClick={() => setActive(nav.title)}
-					>
-						<a href={`#${nav.id}`}>{nav.title}</a>
-					</li>
-				))}
+				<li
+					key="AboutMe"
+					className={`font-poppins font-normal cursor-pointer text-[16px] ${
+						active === t("navbar.aboutme") ? "text-white" : "text-dimWhite"
+					} mr-8`}
+					onClick={() => setActive(t("navbar.aboutme"))}
+				>
+					<a href={`#AboutMe`}>{t("navbar.aboutme")}</a>
+				</li>
+
+				<li
+					key="Skills"
+					className={`font-poppins font-normal cursor-pointer text-[16px] ${
+						active === t("navbar.skills") ? "text-white" : "text-dimWhite"
+					} mr-8`}
+					onClick={() => setActive(t("navbar.skills"))}
+				>
+					<a href={`#Skills`}>{t("navbar.skills")}</a>
+				</li>
+
+				<li
+					key="Projects"
+					className={`font-poppins font-normal cursor-pointer text-[16px] ${
+						active === t("navbar.projects") ? "text-white" : "text-dimWhite"
+					} mr-8`}
+					onClick={() => setActive(t("navbar.projects"))}
+				>
+					<a href={`#Projects`}>{t("navbar.projects")}</a>
+				</li>
+
+				<li
+					key="ContactMe"
+					className={`font-poppins font-normal cursor-pointer text-[16px] ${
+						active === t("navbar.contact") ? "text-white" : "text-dimWhite"
+					}`}
+					onClick={() => setActive(t("navbar.contact"))}
+				>
+					<a href={`#ContactMe`}>{t("navbar.contact")}</a>
+				</li>
 
 				{/* Social media Icons */}
 				<div className="flex flex-row md:mt-0 pl-10 ">
@@ -75,21 +106,45 @@ const Navbar = () => {
 				>
 					{/* LIST SECTION /> */}
 					<ul className="list-none block justify-around items-start right-auto bg-gray-600 bg-opacity-25 rounded-md">
-						{navLinks.map((nav, index) => (
-							<li
-								key={nav.id}
-								className={` flex justify-center font-poppins font-medium cursor-pointer text-[18px] p-1 ${
-									active === nav.title ? "text-white" : "text-dimWhite"
-								} ${
-									index === navLinks.length - 1
-										? "p-[15px] my-1"
-										: "p-[15px] my-1 "
-								}`}
-								onClick={() => setActive(nav.title)}
-							>
-								<a href={`#${nav.id}`}>{nav.title}</a>
-							</li>
-						))}
+						<li
+							key="AboutMe"
+							className={`flex justify-center font-poppins font-medium cursor-pointer text-[18px] p-1 ${
+								active === t("navbar.aboutme") ? "text-white" : "text-dimWhite"
+							} p-[15px] my-1`}
+							onClick={() => setActive(t("navbar.aboutme"))}
+						>
+							<a href={`#AboutMe`}>{t("navbar.aboutme")}</a>
+						</li>
+
+						<li
+							key="Skills"
+							className={`flex justify-center font-poppins font-medium cursor-pointer text-[18px] p-1 ${
+								active === t("navbar.skills") ? "text-white" : "text-dimWhite"
+							} p-[15px] my-1`}
+							onClick={() => setActive(t("navbar.skills"))}
+						>
+							<a href={`#Skills`}>{t("navbar.skills")}</a>
+						</li>
+
+						<li
+							key="Projects"
+							className={`flex justify-center font-poppins font-medium cursor-pointer text-[18px] p-1 ${
+								active === t("navbar.projects") ? "text-white" : "text-dimWhite"
+							} p-[15px] my-1`}
+							onClick={() => setActive(t("navbar.projects"))}
+						>
+							<a href={`#Projects`}>{t("navbar.projects")}</a>
+						</li>
+
+						<li
+							key="ContactMe"
+							className={`flex justify-center font-poppins font-medium cursor-pointer text-[18px] p-1 ${
+								active === t("navbar.contact") ? "text-white" : "text-dimWhite"
+							} p-[15px] my-1`}
+							onClick={() => setActive(t("navbar.contact"))}
+						>
+							<a href={`#ContactMe`}>{t("navbar.contact")}</a>
+						</li>
 					</ul>
 
 					{/* CV SECTION */}
@@ -143,6 +198,6 @@ const Navbar = () => {
 			</div>
 		</nav>
 	);
-};
+}
 
 export default Navbar;

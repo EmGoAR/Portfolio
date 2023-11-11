@@ -1,0 +1,44 @@
+{
+    "navbar": {
+        "aboutme": "About Me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact Me"
+    },
+    
+    "landing": {
+        "subtitle": "Front-End Developer"
+    },
+    "about": {
+        "line1": "Love developing",
+        "line2": "Awesome",
+        "line3": "Apps and Sites!",
+        "description": "I am currently developing Front-End responsive websites, my goal is to continue honing my knowledge and skills to accomplish my current dream, turning into Software Engineer.",
+        "description2": "I love crafting friendly styled UI apps"
+    },
+    "skills": {
+        "title":"My Skills",
+        "section1": "MAIN STACK",
+        "section2": "FUNDAMENTAL ONES",
+        "section3": "STYLING AND STRUCTURE",
+        "section4": "MY WORK TOOLS"
+    },
+    "projects": {
+        "title":"My Projects",
+        "presentation": "I am currently developing several projects, each one with different technologies!, They will be available soon!",
+        "github": "Github Link",
+        "app1title": "Text Encryptor and Decryptor",
+        "app1description": "One of my first responsive apps, user can enter text and convert it at will.",
+        "app2title": "Movie Website",
+        "app2description": "A movie website, project Built with React, uses Axios for routing, query-string for requests, and Swiper for swipe effects",
+        "app3title": "",
+        "app3description": ""
+    },
+    "contact": {
+        "title": "Get in Touch!",
+        "description": "Have a project in mind? Looking to partner or work together? Reach out through the form and I'll get back to you as soon as possible.",
+        "formName": "Name",
+        "formMssg": "Message",
+        "send": "Send"
+    }
+}

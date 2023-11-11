@@ -1,28 +1,41 @@
-import React from 'react'
-import styles from './style.jsx'
-import { Navbar, LandingPage, AboutMe, Skills, Projects, ContactMe, Footer } from './components/Index.js'
+import React from "react";
+import styles from "./style.jsx";
+import {
+	Navbar,
+	LandingPage,
+	AboutMe,
+	Skills,
+	Projects,
+	ContactMe,
+	Footer,
+} from "./components/Index.js";
+import { Trans, useTranslation } from "react-i18next";
 
-const App = () => (
+function App() {
 
-  <div className='bg-primary w-full overflow-hidden'>
-    {/* DIS IS THE NAVBAR */}
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
+	return (
+		<div className="bg-primary w-full overflow-hidden">
 
-    <div className='flex justify-center items-start'>
-      <div className='xl:max-w-[1280px] w-full'> {/* esto es igual que ${styles.boxWidth} */}
-        <LandingPage />
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <ContactMe />
-      </div>
-    </div>
+			{/* DIS IS THE NAVBAR */}
+			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
+				<div className={`${styles.boxWidth}`}>
+					<Navbar />
+				</div>
+			</div>
 
-    {/*
+			<div className="flex justify-center items-start">
+				<div className="xl:max-w-[1280px] w-full">
+					{" "}
+					{/* esto es igual que ${styles.boxWidth} */}
+					<LandingPage />
+					<AboutMe />
+					<Skills />
+					<Projects />
+					<ContactMe />
+				</div>
+			</div>
+
+			{/*
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
@@ -31,10 +44,9 @@ const App = () => (
 
     */}
 
-    <div className={`${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-
-        {/*
+			<div className={`${styles.paddingX} ${styles.flexStart}`}>
+				<div className={`${styles.boxWidth}`}>
+					{/*
 
         <Stats />
         <Business />
@@ -45,10 +57,11 @@ const App = () => (
         <Cta />
         */}
 
-        <Footer />
-      </div>
-    </div>
-  </div>
-)
+					<Footer />
+				</div>
+			</div>
+		</div>
+	);
+}
 
-export default App
+export default App;

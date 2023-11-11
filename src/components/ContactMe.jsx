@@ -1,7 +1,10 @@
 import { useState } from "react";
 import styles from "../style";
+import { Trans, useTranslation } from "react-i18next";
 
-const ContactMe = () => {
+function ContactMe () {
+	const { t, i18n } = useTranslation();
+
 	const [message, setMessage] = useState("");
 	const [name, setName] = useState("");
 
@@ -29,11 +32,10 @@ const ContactMe = () => {
 				className={`${styles.paragraph} text-left sm:text-start text-md leading-[20.8px] bg-gray-900 rounded-md p-4 shadow shadow-black`}
 			>
 				<h1 className="flex-1 font-poppins font-semibold ss:text-[32px] text-[28px] sm:text-left text-center text-gradient ss:leading-[60px] leading-[55px]">
-					Get In Touch!
+					{t("contact.title")}
 				</h1>
 				<p className="max-w-lg">
-					Have a project in mind? Looking to partner or work together? Reach out
-					through the form and I'll get back to you as soon as possible.
+				{t("contact.description")}
 				</p>
 			</div>
 
@@ -47,7 +49,7 @@ const ContactMe = () => {
 						className="block text-sm font-bold mb-2"
 						htmlFor="Name"
 					>
-						Name
+						{t("contact.formName")}
 					</label>
 					<input
 						id="name"
@@ -65,7 +67,7 @@ const ContactMe = () => {
 						className="block text-sm font-bold mb-2"
 						htmlFor="message"
 					>
-						Message
+						{t("contact.formMssg")}
 					</label>
 					<textarea
 						id="message"
@@ -84,7 +86,7 @@ const ContactMe = () => {
 						rel="noreferrer"
 						type="submit"
 					>
-						Send
+						{t("contact.send")}
 					</a>
 				</div>
 			</form>
