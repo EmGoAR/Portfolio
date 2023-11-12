@@ -10,7 +10,7 @@
         "subtitle": "Desarrollador Front-End"
     },
     "about": {
-        "line1": "Me encanta desarrollar",
+        "line1": "Me Encanta Desarrollar",
         "line2": "Sitios Geniales",
         "line3": "",
         "description": "Actualmente desarrollo sitios web responsivos, mi meta es continuar cultivando mis conocimientos y habilidades hasta llegar a realizar mi sueño, ser Ingeniero de Software.",
@@ -35,8 +35,8 @@
         "app3description": ""
     },
     "contact": {
-        "title": "Nos pongamos en Contacto!",
-        "description": "Tienes un proyecto en mente? quieres ayuda para terminar un proyecto? rellena el formulario y te contactaré lo antes posible!",
+        "title": "Contactame!",
+        "description": "Tienes un proyecto en mente?, Quieres ayuda para terminar un proyecto?, Rellena el formulario y te contactaré lo antes posible!",
         "formName": "Nombre",
         "formMssg": "Mensaje",
         "send": "Enviar"
